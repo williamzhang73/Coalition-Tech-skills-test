@@ -1,0 +1,45 @@
+.list-container {
+  position: absolute;
+  top: 122px;
+  left: 18px;
+  width: 367px;
+  height: 1054px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  opacity: 1;
+}
+
+.list-title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100px;
+  height: 33px;
+  text-align: left;
+  font: normal normal 800 24px/33px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+}
+
+.search-icon {
+  position: absolute;
+  top: 28px;
+  left: 329px;
+  width: 18px;
+  height: 18px;
+  background: transparent
+    url('../../public/images/search_FILL0_wght300_GRAD0_opsz24.jpg') 0% 0%
+    no-repeat padding-box;
+}
+
+.list-container ul {
+  position: absolute;
+  top: 93px;
+  left: 0;
+  height: 800px;
+  overflow-y: scroll;
+}
+
+.list-container ul li {
+  padding: 16px 16px 16px 20px;
+}

@@ -1,0 +1,273 @@
+span {
+  display: inline-block;
+}
+
+.navbar {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  width: 1564px;
+  height: 72px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 70px;
+  opacity: 1;
+}
+
+.navbar .navbar-left {
+  display: inline-block;
+  position: absolute;
+  top: 12px;
+  left: 32px;
+  width: 211px;
+  height: 48px;
+  background: transparent url('../../public/images/TestLogo.jpg') 0% 0%
+    no-repeat padding-box;
+}
+
+.navbar .navbar-middle {
+  position: absolute;
+  top: 5px;
+  left: 455px;
+  width: 663px;
+  height: 63px;
+}
+
+.navbar .navbar-right {
+  position: absolute;
+  top: 14px;
+  left: 1291px;
+  width: 241px;
+  height: 44px;
+}
+
+.patients-div {
+  top: 11px;
+  left: 128px;
+  background: #01f0d0 0% 0% no-repeat padding-box;
+  border-radius: 41px;
+  width: 122px;
+  height: 41px;
+}
+
+.navbar-middle > div {
+  opacity: 1;
+  position: absolute;
+}
+
+.overview-div {
+  left: 0;
+  width: 88px;
+  height: 19px;
+  top: 22px;
+}
+
+.schedule-div {
+  left: 289px;
+  width: 88px;
+  height: 19px;
+  top: 22px;
+}
+
+.message-div {
+  left: 416px;
+  width: 88px;
+  height: 19px;
+  top: 22px;
+}
+
+.transactions-div {
+  left: 544px;
+  width: 88px;
+  height: 19px;
+  top: 22px;
+}
+
+.overview-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 17px;
+  background: transparent
+    url('../../public/images/home_FILL0_wght300_GRAD0_opsz24.jpg') 0% 0%
+    no-repeat padding-box;
+}
+
+.overview-title {
+  position: absolute;
+  top: 0;
+  left: 24px;
+  width: 63px;
+  height: 19px;
+  text-align: left;
+  font: normal normal bold 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+}
+
+.patients-logo {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  width: 24px;
+  height: 17px;
+  background: transparent
+    url('../../public/images/group_FILL0_wght300_GRAD0_opsz24.jpg') 0% 0%
+    no-repeat padding-box;
+}
+
+.patients-title {
+  position: absolute;
+  top: 11px;
+  left: 49px;
+  width: 57px;
+  height: 19px;
+  text-align: left;
+  font: normal normal bold 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+}
+
+.schedule-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 17px;
+  background: transparent
+    url('../../public/images/calendar_today_FILL0_wght300_GRAD0_opsz24.jpg') 0%
+    0% no-repeat padding-box;
+}
+
+.schedule-title {
+  position: absolute;
+  top: 0;
+  left: 24px;
+  width: 64px;
+  height: 19px;
+  text-align: left;
+  font: normal normal bold 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+}
+
+.message-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 19px;
+  height: 17px;
+  background: transparent
+    url('../../public/images/chat_bubble_FILL0_wght300_GRAD0_opsz24.jpg') 0% 0%
+    no-repeat padding-box;
+}
+
+.message-title {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  width: 61px;
+  height: 19px;
+  text-align: left;
+  font: normal normal bold 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+}
+
+.transactions-logo {
+  position: inherit;
+  top: 0;
+  left: 0;
+  width: 22px;
+  height: 17px;
+  background: transparent
+    url('../../public/images/credit_card_FILL0_wght300_GRAD0_opsz24.jpg') 0% 0%
+    no-repeat padding-box;
+}
+
+.transactions-title {
+  position: inherit;
+  top: 0;
+  left: 26px;
+  width: 89px;
+  height: 19px;
+  text-align: left;
+  font: normal normal bold 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+}
+
+.navbar .navbar-right .dr-info {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 44px;
+  width: 182px;
+  border-right: 2px solid #f6f7f8;
+}
+
+.navbar .navbar-right .dr-profile {
+  position: absolute;
+  top: 0;
+  left: 52px;
+  height: 44px;
+  width: 129px;
+}
+
+.navbar .navbar-right .dr-logo {
+  position: inherit;
+  top: 0;
+  left: 0;
+  width: 44px;
+  height: 44px;
+  background: transparent
+    url('../../public/images/senior-woman-doctor-and-portrait-smile-for-health-2023-11-27-05-18-16-utc.jpg')
+    0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.navbar .navbar-right .dr-name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 119px;
+  height: 19px;
+  text-align: left;
+  font: normal normal bold 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+}
+
+.navbar .navbar-right .dr-title {
+  position: absolute;
+  top: 22px;
+  left: 0;
+  width: 129px;
+  height: 19px;
+  text-align: left;
+  font: normal normal bold 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #707070;
+}
+
+.setting-icon {
+  position: absolute;
+  top: 12px;
+  left: 206px;
+  width: 19px;
+  height: 20px;
+  background: transparent
+    url('../../public/images/settings_FILL0_wght300_GRAD0_opsz24.jpg') 0% 0%
+    no-repeat padding-box;
+}
+
+.setting-more {
+  position: absolute;
+  top: 12px;
+  left: 232px;
+  width: 5px;
+  height: 20px;
+  background: transparent
+    url('../../public/images/more_vert_FILL0_wght300_GRAD0_opsz24.jpg') 0% 0%
+    no-repeat padding-box;
+}

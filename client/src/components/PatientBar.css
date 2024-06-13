@@ -1,0 +1,50 @@
+.patient {
+  position: relative;
+  width: 317px;
+  height: 48px;
+  /*  padding-top: 16px;
+  padding-right: 20px; */
+}
+
+.patient-headShot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 48px;
+  height: 48px;
+}
+
+.patient-name {
+  position: absolute;
+  top: 3px;
+  left: 60px;
+  width: 131px;
+  height: 19px;
+  text-align: left;
+  font: normal normal bold 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+}
+
+.patient-info {
+  position: absolute;
+  top: 26px;
+  left: 60px;
+  width: 66px;
+  height: 19px;
+  text-align: left;
+  font: normal normal normal 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #707070;
+}
+
+.horizontal-more-icon {
+  position: absolute;
+  top: 22px;
+  left: 299px;
+  width: 18px;
+  height: 4px;
+  background: transparent
+    url('../../public/images/more_horiz_FILL0_wght300_GRAD0_opsz24.jpg') 0% 0%
+    no-repeat padding-box;
+}

@@ -1,0 +1,128 @@
+.diag-list-container {
+  position: absolute;
+  top: 827px;
+  left: 417px;
+  width: 766px;
+  height: 349px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  opacity: 1;
+}
+
+.diag-list-title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 176px;
+  height: 33px;
+  text-align: left;
+  font: normal normal 800 24px/33px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+}
+
+.diag-list-header {
+  position: absolute;
+  top: 93px;
+  left: 20px;
+  width: 726px;
+  height: 48px;
+  background: #f6f7f8 0% 0% no-repeat padding-box;
+  border-radius: 24px;
+}
+
+.diag-list-header1 {
+  position: absolute;
+  top: 15px;
+  left: 16px;
+  width: 129px;
+  height: 19px;
+  text-align: left;
+  font: normal normal bold 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+}
+
+.diag-list-header2 {
+  position: absolute;
+  top: 15px;
+  left: 249px;
+  width: 79px;
+  height: 19px;
+  text-align: left;
+  font: normal normal bold 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+}
+
+.diag-list-header3 {
+  position: absolute;
+  top: 15px;
+  left: 613px;
+  width: 79px;
+  height: 19px;
+  text-align: left;
+  font: normal normal bold 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+}
+
+.diag-list-data {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 723px;
+  height: 59px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+
+.diag-list-data1 {
+  position: absolute;
+  top: 21px;
+  left: 16px;
+  width: 100px;
+  height: 19px;
+  text-align: left;
+  font: normal normal normal 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+}
+
+.diag-list-data2 {
+  position: absolute;
+  top: 21px;
+  left: 249px;
+  width: 290px;
+  height: 19px;
+  text-align: left;
+  font: normal normal normal 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+}
+
+.diag-list-data3 {
+  position: absolute;
+  top: 11px;
+  left: 613px;
+  width: 79px;
+  height: 38px;
+  text-align: left;
+  font: normal normal normal 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+}
+
+.diag-list-container ul {
+  position: absolute;
+  top: 151px;
+  left: 20px;
+  width: 723px;
+  height: 160px;
+  overflow-y: scroll;
+}
+
+.diag-list-container ul li {
+  position: relative;
+  width: 723px;
+  height: 59px;
+}

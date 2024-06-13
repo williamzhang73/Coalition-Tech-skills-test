@@ -1,35 +1,25 @@
-import { useEffect, useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import TopNavBar from './components/TopNavBar';
+import OverviewPage from './pages/OverviewPage';
+import PatientsPage from './pages/PatientsPage';
+import SchedulePage from './pages/SchedulePage';
+import MessagePage from './pages/MessagePage';
+import TransactionsPage from './pages/TransactionsPage';
 
 export default function App() {
-  const [serverData, setServerData] = useState('');
-
-  useEffect(() => {
-    async function readServerData() {
-      const resp = await fetch('/api/hello');
-      const data = await resp.json();
-
-      console.log('Data from server:', data);
-
-      setServerData(data.message);
-    }
-
-    readServerData();
-  }, []);
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank" rel="noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>{serverData}</h1>
-    </>
+    <div className="container">
+      <Routes>
+        <Route path="/" element={<TopNavBar />}>
+          <Route index element={<PatientsPage />} />
+          <Route path="overview" element={<OverviewPage />} />
+          <Route path="patients" element={<PatientsPage />} />
+          <Route path="schedule" element={<SchedulePage />} />
+          <Route path="message" element={<MessagePage />} />
+          <Route path="transactions" element={<TransactionsPage />} />
+        </Route>
+      </Routes>
+    </div>
   );
 }

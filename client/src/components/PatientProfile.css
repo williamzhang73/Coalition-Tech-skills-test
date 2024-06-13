@@ -1,0 +1,276 @@
+.patient-profile-container {
+  position: absolute;
+  top: 108px;
+  left: 1216px;
+  width: 367px;
+  height: 740px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  opacity: 1;
+}
+
+.patient-headshot {
+  position: absolute;
+  top: 32px;
+  left: 83px;
+  width: 200px;
+  height: 200px;
+  background: transparent
+    url('../../public/images/patients/Jessica_Taylor@2x.jpg') 0% 0% no-repeat
+    padding-box;
+  background-size: cover;
+}
+
+.patient-profile-name {
+  position: absolute;
+  top: 256px;
+  left: 101px;
+  width: 164px;
+  height: 33px;
+  text-align: center;
+  font: normal normal 800 24px/33px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+}
+
+.patient-profile-birthday {
+  position: absolute;
+  top: 321px;
+  left: 20px;
+  width: 347px;
+  height: 42px;
+}
+
+.patient-birthday-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 42px;
+  height: 42px;
+  background: transparent url('../../public/images/BirthIcon.jpg') 0% 0%
+    no-repeat padding-box;
+}
+
+.patient-birthday-title {
+  position: absolute;
+  top: 0;
+  left: 58px;
+  width: 84px;
+  height: 19px;
+  text-align: left;
+  font: normal normal 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+  text-transform: capitalize;
+}
+
+.patient-birthday-date {
+  position: absolute;
+  top: 23px;
+  left: 58px;
+  width: 108px;
+  height: 19px;
+  text-align: left;
+  font: normal normal bold 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+  text-transform: capitalize;
+}
+
+.patient-profile-gender {
+  position: absolute;
+  top: 384px;
+  left: 20px;
+  width: 347px;
+  height: 42px;
+}
+
+.patient-gender-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 42px;
+  height: 42px;
+  background: transparent url('../../public/images/FemaleIcon.jpg') 0% 0%
+    no-repeat padding-box;
+}
+
+.patient-gender-title {
+  position: absolute;
+  top: 0;
+  left: 58px;
+  width: 48px;
+  height: 19px;
+  text-align: left;
+  font: normal normal 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+  text-transform: capitalize;
+}
+
+.patient-gender-value {
+  position: absolute;
+  top: 23px;
+  left: 58px;
+  width: 48px;
+  height: 19px;
+  text-align: left;
+  font: normal normal bold 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+  text-transform: capitalize;
+}
+
+.patient-profile-contact {
+  position: absolute;
+  top: 453px;
+  left: 20px;
+  width: 347px;
+  height: 42px;
+}
+
+.patient-contact-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 42px;
+  height: 42px;
+  background: transparent url('../../public/images/PhoneIcon.jpg') 0% 0%
+    no-repeat padding-box;
+}
+
+.patient-contact-title {
+  position: absolute;
+  top: 0;
+  left: 58px;
+  width: 86px;
+  height: 19px;
+  text-align: left;
+  font: normal normal 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+  text-transform: capitalize;
+}
+
+.patient-contact-value {
+  position: absolute;
+  top: 23px;
+  left: 58px;
+  width: 100px;
+  height: 19px;
+  text-align: left;
+  font: normal normal bold 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+  text-transform: capitalize;
+}
+
+.patient-emergency {
+  position: absolute;
+  top: 519px;
+  left: 20px;
+  width: 347px;
+  height: 42px;
+}
+
+.patient-emergency-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 42px;
+  height: 42px;
+  background: transparent url('../../public/images/PhoneIcon.jpg') 0% 0%
+    no-repeat padding-box;
+}
+
+.patient-emergency-title {
+  position: absolute;
+  top: 0;
+  left: 58px;
+  width: 138px;
+  height: 19px;
+  text-align: left;
+  font: normal normal 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+  text-transform: capitalize;
+}
+
+.patient-emergency-value {
+  position: absolute;
+  top: 23px;
+  left: 58px;
+  width: 102px;
+  height: 19px;
+  text-align: left;
+  font: normal normal bold 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+  text-transform: capitalize;
+}
+
+.patient-insurance {
+  position: absolute;
+  top: 585px;
+  left: 20px;
+  width: 347px;
+  height: 42px;
+}
+
+.patient-insurance-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 42px;
+  height: 42px;
+  background: transparent url('../../public/images/InsuranceIcon.jpg') 0% 0%
+    no-repeat padding-box;
+}
+
+.patient-insurance-title {
+  position: absolute;
+  top: 0;
+  left: 58px;
+  width: 122px;
+  height: 19px;
+  text-align: left;
+  font: normal normal 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+  text-transform: capitalize;
+}
+
+.patient-insurance-value {
+  position: absolute;
+  top: 23px;
+  left: 58px;
+  width: 175px;
+  height: 19px;
+  text-align: left;
+  font: normal normal bold 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+  text-transform: capitalize;
+}
+
+.show-more-button {
+  position: absolute;
+  top: 667px;
+  left: 73px;
+  width: 220px;
+  height: 41px;
+  background: #01f0d0 0% 0% no-repeat padding-box;
+  border-radius: 41px;
+}
+
+.button-message {
+  position: absolute;
+  top: 11px;
+  left: 40px;
+  width: 140px;
+  height: 19px;
+  text-align: left;
+  font: normal normal bold 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+}

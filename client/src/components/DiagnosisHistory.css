@@ -1,0 +1,428 @@
+.diag-hist-container {
+  position: absolute;
+  top: 122px;
+  left: 417px;
+  width: 766px;
+  height: 673px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  opacity: 1;
+}
+
+.diag-hist-header {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 207px;
+  height: 33px;
+  text-align: left;
+  font: normal normal 800 24px/33px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+}
+
+.blood-pressure-container {
+  position: absolute;
+  top: 93px;
+  left: 20px;
+  width: 726px;
+  height: 298px;
+  background: #f4f0fe 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+}
+
+.resp-rate-container {
+  position: absolute;
+  top: 411px;
+  left: 20px;
+  width: 228px;
+  height: 242px;
+  background: #e0f3fa 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+}
+
+.temp-container {
+  position: absolute;
+  top: 411px;
+  left: 269px;
+  width: 228px;
+  height: 242px;
+  background: #e0f3fa 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+}
+
+.heart-rate-container {
+  position: absolute;
+  top: 411px;
+  left: 518px;
+  width: 228px;
+  height: 242px;
+  background: #ffe6f1 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+}
+
+.resp-rate-icon {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 96px;
+  height: 96px;
+  background: transparent url('../../public/images/respiratory\ rate@2x.jpg') 0%
+    0% no-repeat padding-box;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.resp-rate-title {
+  position: absolute;
+  top: 128px;
+  left: 16px;
+  width: 125px;
+  height: 22px;
+  text-align: left;
+  font: normal normal 16px/22px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+  text-transform: capitalize;
+}
+
+.resp-rate-value {
+  position: absolute;
+  top: 149px;
+  left: 16px;
+  width: 109px;
+  height: 41px;
+  text-align: left;
+  font: normal normal 800 30px/41px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+  text-transform: capitalize;
+}
+
+.resp-rate-reference {
+  position: absolute;
+  top: 207px;
+  left: 16px;
+  width: 46px;
+  height: 19px;
+  text-align: left;
+  font: normal normal normal 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+}
+
+.temp-icon {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 96px;
+  height: 96px;
+  background: transparent url('../../public/images/temperature@2x.jpg') 0% 0%
+    no-repeat padding-box;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.temp-title {
+  position: absolute;
+  top: 128px;
+  left: 16px;
+  width: 97px;
+  height: 22px;
+  text-align: left;
+  font: normal normal 16px/22px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+  text-transform: capitalize;
+}
+
+.temp-value {
+  position: absolute;
+  top: 149px;
+  left: 16px;
+  width: 95px;
+  height: 41px;
+  text-align: left;
+  font: normal normal 800 30px/41px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+}
+
+.temp-reference {
+  position: absolute;
+  top: 207px;
+  left: 16px;
+  width: 46px;
+  height: 19px;
+  text-align: left;
+  font: normal normal normal 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+}
+
+.heart-rate-icon {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 96px;
+  height: 96px;
+  background: transparent url('../../public/images/HeartBPM@2x.jpg') 0% 0%
+    no-repeat padding-box;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.heart-rate-title {
+  position: absolute;
+  top: 128px;
+  left: 16px;
+  width: 80px;
+  height: 22px;
+  text-align: left;
+  font: normal normal 16px/22px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+  text-transform: capitalize;
+}
+
+.heart-rate-value {
+  position: absolute;
+  top: 149px;
+  left: 16px;
+  width: 106px;
+  height: 41px;
+  text-align: left;
+  font: normal normal 800 30px/41px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+}
+
+.heart-rate-reference {
+  position: absolute;
+  top: 207px;
+  left: 16px;
+  width: 147px;
+  height: 19px;
+}
+
+.heart-rate-refer-icon {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 10px;
+  height: 5px;
+  background: transparent url('../../public/images/ArrowDown.jpg') 0% 0%
+    no-repeat padding-box;
+}
+
+.heart-rate-refer-value {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  width: 127px;
+  height: 19px;
+  text-align: left;
+  font: normal normal normal 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+}
+
+.blood-title-left {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 131px;
+  height: 24px;
+  text-align: left;
+  font: normal normal bold 18px/24px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+  text-transform: capitalize;
+}
+
+.blood-title-right {
+  position: absolute;
+  top: 21px;
+  left: 336px;
+  width: 92px;
+  height: 19px;
+  text-align: right;
+  font: normal normal normal 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+}
+
+.title-right-date {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 92px;
+  height: 19px;
+  text-align: right;
+  font: normal normal normal 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+}
+
+.arrow-down-icon {
+  position: absolute;
+  top: 6px;
+  left: 100px;
+  width: 11px;
+  height: 6px;
+  background: transparent
+    url('../../public/images/expand_more_FILL0_wght300_GRAD0_opsz24@2x.jpg') 0%
+    0% no-repeat padding-box;
+  background-size: cover;
+}
+
+.systolic-diastolic-container {
+  position: absolute;
+  top: 16px;
+  left: 502px;
+  width: 208px;
+  height: 201px;
+}
+
+.systolic-diastolic-container .systolic-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 149px;
+  height: 84px;
+}
+
+.systolic-diastolic-container .diastolic-container {
+  position: absolute;
+  top: 117px;
+  right: 63px;
+  width: 149px;
+  height: 84px;
+}
+
+.systolic-icon {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  background: #e66fd2 0% 0% no-repeat padding-box;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+
+.systolic-title {
+  position: absolute;
+  top: 0;
+  left: 18px;
+  width: 55px;
+  height: 19px;
+  text-align: left;
+  font: normal normal bold 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+  text-transform: capitalize;
+}
+
+.systolic-value {
+  position: absolute;
+  top: 27px;
+  left: 0;
+  width: 38px;
+  height: 30px;
+  text-align: left;
+  font: normal normal bold 22px/30px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+  text-transform: capitalize;
+}
+
+.arrow-up-icon {
+  position: absolute;
+  top: 73px;
+  left: 0;
+  width: 10px;
+  height: 5px;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+  background: transparent url('../../public/images/ArrowUp.jpg') 0% 0% no-repeat
+    padding-box;
+}
+
+.systolic-levels {
+  position: absolute;
+  top: 65px;
+  left: 18px;
+  width: 131px;
+  height: 19px;
+  text-align: left;
+  font: normal normal normal 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+}
+
+.diastolic-icon {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  background: #8c6fe6 0% 0% no-repeat padding-box;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+
+.diastolic-title {
+  position: absolute;
+  top: 0;
+  left: 18px;
+  width: 60px;
+  height: 19px;
+  text-align: left;
+  font: normal normal bold 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+  text-transform: capitalize;
+}
+
+.diastolic-value {
+  position: absolute;
+  top: 27px;
+  left: 0;
+  width: 25px;
+  height: 30px;
+  text-align: left;
+  font: normal normal bold 22px/30px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+  text-transform: capitalize;
+}
+
+.diastolic-arrowdown-icon {
+  position: absolute;
+  top: 73px;
+  left: 0;
+  width: 10px;
+  height: 5px;
+  background: transparent url('../../public/images/ArrowDown.jpg') 0% 0%
+    no-repeat padding-box;
+}
+
+.diastolic-levels {
+  position: absolute;
+  top: 65px;
+  left: 18px;
+  width: 127px;
+  height: 19px;
+  text-align: left;
+  font: normal normal normal 14px/19px Manrope;
+  letter-spacing: 0;
+  color: #072635;
+}
+
+.line-chart-container {
+  position: absolute;
+  top: 68px;
+  left: 10px;
+  width: 400px;
+  height: 187px;
+}
